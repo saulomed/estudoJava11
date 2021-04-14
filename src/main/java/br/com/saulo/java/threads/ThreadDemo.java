@@ -20,4 +20,11 @@ public class ThreadDemo
 
         System.out.println("Main thread exiting");
     }
+    
+    public static NewThread createAndStart()
+    {
+        NewThread myThrd = new NewThread();
+        myThrd.t.start();
+        return myThrd;
+    }
 }
