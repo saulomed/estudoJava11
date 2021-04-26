@@ -2,7 +2,11 @@ package br.com.saulo.java.exceptions;
 
 public class MyException extends Exception
 {
-    private int detail;
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 7402267420521338169L;
+	private int detail;
 
     MyException(int a)
     {

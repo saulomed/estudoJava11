@@ -23,7 +23,6 @@ public class MethNestTry
         try
         {
             int a = args.length;
-            int b = 42/a;
             System.out.println("a = "+a);
 
             nesttry(a);
