@@ -1,6 +1,5 @@
 package br.com.saulo.java.threads.interthread;
 
-import br.com.saulo.java.threads.sync.Caller;
 
 public class Queue {
     int n;
